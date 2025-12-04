@@ -1,0 +1,106 @@
+.body{
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-color: rgb(17, 17, 18);
+}
+
+
+
+
+
+.introduction-text{
+ 
+ width: 200px;
+ height: 400px;
+ display: grid;
+ color:white;
+ position: absolute;
+ top: 50px;
+  
+}
+
+.introduction-title{
+  
+  font-weight: bold;
+ font-size: 30px;
+ width: 200px;
+ margin-bottom: 133px;
+ height: 50px;
+}
+
+.introduction-body-text
+{
+  width: 200px;
+  height: 50px;
+ font-size: 20px;
+  
+}
+
+
+.buttons-row
+{
+z-index: 200;
+  position: sticky;
+  top: 0;
+  width: 1555px;
+  height: 100px;
+  background-color: rgb(35, 34, 34);
+  justify-content: space-between;
+
+ }
+ 
+ 
+  
+
+.main-image{
+  width: 1300px;
+ height: 1000px;
+ 
+ 
+
+ 
+}
+.text-image-group{
+  display: flexbox;
+width: 80vw;
+ height: 80vh;
+ position: relative;
+bottom: 100px;
+top: 40px;
+z-index: 100;
+
+}
+
+.projects-button:hover{
+
+    background-color: rgb(48, 48, 53);
+}
+.projects-button{
+   background-color: rgb(42, 42, 46);
+ width: 70px;
+ height: 40px;
+ border: solid;
+ border-color:  rgb(1, 2, 15);
+ border-width: 2px;
+ position: absolute;
+ top: 10px;
+ left:50px;
+ color: whitesmoke;
+}
+
+.contact-button:hover{
+ background-color: rgb(48, 48, 53);
+ 
+}
+.contact-button{
+  background-color: rgb(42, 42, 46);
+ 
+ height: 40px;
+ border: solid;
+ border-color: rgb(1, 2, 15);
+ border-width: 2px;
+ position:absolute;
+ top: 10px;
+ right: 60px;
+ color: whitesmoke
+}
